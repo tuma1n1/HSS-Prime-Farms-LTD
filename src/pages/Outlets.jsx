@@ -123,7 +123,7 @@ export default function Outlets() {
             </div>
           </section>
 
-          {/* KISUMU */}
+          {/* KISUMU 
           <section className="section alt">
             <div className="split soft-card">
               <div className="img-frame">
@@ -154,7 +154,7 @@ export default function Outlets() {
             </div>
           </section>
 
-          {/* NAKURU */}
+          {/* NAKURU 
           <section className="section">
             <div className="split reverse soft-card">
               <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
@@ -185,7 +185,7 @@ export default function Outlets() {
             </div>
           </section>
 
-          {/* ELDORET */}
+          {/* ELDORET 
           <section className="section alt">
             <div className="split soft-card">
               <div className="img-frame">
@@ -215,7 +215,7 @@ export default function Outlets() {
               </motion.div>
             </div>
           </section>
-
+            */}
         </div>
       </div>
     </>

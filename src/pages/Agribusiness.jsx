@@ -44,11 +44,11 @@ export default function Agribusiness() {
           </motion.div>
 
           {/* GARLIC */}
-          <section className="section alt">
+          <section className="section">
             <div className="split soft-card">
               <div className="img-frame">
                 <img
-                  src="/images/Garlic.jpg"
+                  src="/images/White-Garlic.jpg"
                   alt="Garlic Farming"
                   loading="eager"
                   decoding="async"
@@ -72,7 +72,7 @@ export default function Agribusiness() {
           </section>
 
           {/* ONIONS */}
-          <section className="section">
+          <section className="section alt">
             <div className="split reverse soft-card">
               <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
                 <h2>Onion Farming</h2>
@@ -90,7 +90,7 @@ export default function Agribusiness() {
 
               <div className="img-frame">
                 <img
-                  src="/images/Onions.jpg"
+                  src="/images/Onions-1.jpg"
                   alt="Onion Production"
                   loading="eager"
                   decoding="async"
@@ -101,11 +101,11 @@ export default function Agribusiness() {
           </section>
 
           {/* CAPSICUM */}
-          <section className="section alt">
+          <section className="section">
             <div className="split soft-card">
               <div className="img-frame">
                 <img
-                  src="/images/Capsicum.jpg"
+                  src="/images/Capsicum-1.jpg"
                   alt="Capsicum Farming"
                   loading="eager"
                   decoding="async"
@@ -129,7 +129,7 @@ export default function Agribusiness() {
           </section>
 
           {/* FUTURE EXPANSION */}
-          <section className="section">
+          <section className="section alt">
             <motion.div
               variants={fadeUp}
               initial="hidden"

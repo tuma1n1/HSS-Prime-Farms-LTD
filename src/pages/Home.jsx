@@ -73,7 +73,7 @@ export default function Home() {
           </div>
 
           <div className="hero-content">
-            <motion.h1 variants={fadeUp}>
+            <motion.h1 variants={fadeUp} style={{ color: "#d7c8a1" }} >
               From Farm to Future
             </motion.h1>
 
@@ -97,8 +97,8 @@ export default function Home() {
         <section className="stats-overlap">
           <div className="stats" >
             {[
-              ["10K+", "Bird Capacity"],
-              ["5+", "Counties Reached"],
+              ["400K+", "Bird Capacity"],
+              ["2+", "Counties Reached"],
               ["24/7", "Cold Chain"],
               ["100%", "Quality Focus"]
             ].map((stat, i) => (
@@ -132,19 +132,19 @@ export default function Home() {
               {
                 img: "/images/poultry.jpg",
                 title: "Poultry Production",
-                text: "Commercial broilers raised for quality and consistency.",
+                text: "Quality broilers, chicks and eggs.",
                 link: "/poultry"
               },
               {
-                img: "/images/Meat.jpg",
+                img: "/images/Meat-3.jpg",
                 title: "Meat Supply",
                 text: "Clean, inspected, cold-chain handled meats.",
                 link: "/meats"
               },
               {
-                img: "/images/Crops-2.jpg",
+                img: "/images/Crops-10.jpg",
                 title: "Agribusiness",
-                text: "High-value crops grown for local and regional markets.",
+                text: "High-value nutritional organic crops grown for local and regional markets.",
                 link: "/agribusiness"
               }
             ].map((item, i) => (

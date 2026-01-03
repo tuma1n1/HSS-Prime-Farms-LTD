@@ -42,21 +42,21 @@ const slideVariants = {
 
 export default function Meats() {
   const beefImg = useSlider([
-    "/images/Beef-cuts.jpg",
+    "/images/Steak.jpg",
     "/images/Beef-steak.jpg",
-    "/images/Beef-ribs.jpg"
+    "/images/Ribs.jpg"
   ]);
 
   const goatImg = useSlider([
-    "/images/Goat.jpg",
-    "/images/Goat-chops.jpg",
-    "/images/Goat-leg.jpg"
+    "/images/Meat-1.jpg",
+    "/images/Goat-2.jpg",
+    "/images/Goat-1.jpg"
   ]);
 
   const sheepImg = useSlider([
     "/images/Sheep.jpg",
-    "/images/Lamb-chops.jpg",
-    "/images/Lamb-steaks.jpg"
+    "/images/Meat-4.jpg",
+    "/images/Meat-5.jpg"
   ]);
 
   return (

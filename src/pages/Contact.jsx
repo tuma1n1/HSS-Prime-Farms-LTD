@@ -66,7 +66,7 @@ export default function Contact() {
             <hr style={{ marginTop: "20px", opacity: 0.25 }} />
           </motion.div>
 
-          <div style={{ display: "grid", gap: "25px", gridTemplateColumns: "1fr 320px" }}>
+          <div className="contact-layout" >
 
             {/* FORM */}
             <motion.form
@@ -136,6 +136,7 @@ export default function Contact() {
               variants={fadeUp}
               initial="hidden"
               whileInView="visible"
+              className="contact-details-card"
               style={{
                 background: "rgba(8, 118, 0, 0.25)",
                 padding: "30px",

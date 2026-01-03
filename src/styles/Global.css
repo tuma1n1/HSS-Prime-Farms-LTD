@@ -150,17 +150,29 @@ li::marker {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   background-size: cover;
   background-position: center;
   color: white;
 }
 
-.hero-content h1,
+
+
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  max-width: 650px;
+  text-align: left;
+}
+/*
+.hero-contenth1,
 .hero h1 {
   font-family: 'Playfair Display', serif;
   color: #d7c8a1;
 }
+*/
 
 /* Buttons — keep readable earthy tone */
 .btn-primary,
@@ -481,6 +493,7 @@ footer {
 /* HERO */
 .hero-section {
   height: 80vh;
+  min-height: 78vh;
   background-size: cover;
   background-position: center;
   padding-top: 80px;
@@ -500,19 +513,24 @@ footer {
 
 
 .hero-content h1 {
-  font-size: 52px;
+  font-size: clamp(26px, 6vw, 62px);
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: left;
   line-height: 1.1;
   margin-bottom: 16px;
 }
 
 .hero-subtitle {
-  font-size: 20px;
+  font-size: clamp(14px, 2.2vw, 20px);
+  font-family: 'Comic Neue', cursive;
+  text-align: left;
   line-height: 1.5;
   opacity: 0.95;
 }
 
 .hero-buttons {
   margin-top: 12px;
+  margin-bottom: 22px;
 }
 
 .text-link {
@@ -695,8 +713,19 @@ footer {
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
 
+.contact-form,
+.contact-details-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .contact-form button {
   letter-spacing: .3px;
+}
+
+.contact-details-card {
+  max-width: 420px;
+  margin-inline: auto;
 }
 
 .form-grid {
@@ -728,6 +757,12 @@ footer {
   transition: border 0.2s ease, box-shadow 0.2s ease;
 }
 
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 25px;
+}
+
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #777;
@@ -750,7 +785,17 @@ footer {
 /* =========================
    GLOBAL RESPONSIVE FIXES
    ========================= */
-@media (max-width: 900px) {
+@media (max-width: 760px) {
+  .navbar .logo img {
+    height: 36px;
+    width: auto;
+    max-width: 160px;  /* prevents stretching */
+  }
+
+  .navbar-inner {
+    padding: 8px 0;
+  }
+
   .container {
     padding: 0 16px;
   }
@@ -770,8 +815,33 @@ footer {
   }
 
   .hero-content {
-    text-align: center;
-    padding: 0 14px;
+    text-align: left;
+    padding-top: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 18vh 18px 0;
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+  }
+  .hero-section {
+    height: 95vh;      /* gives more space */
+    padding-top: 70px; /* avoids navbar clash */
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+   .hero-subtitle {
+    font-size: 15px;
+    max-width: 90%;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .section-title {
@@ -782,6 +852,37 @@ footer {
   .card,
   .soft-card {
     padding: 18px;
+  }q
+
+  .contact-details-card {
+    order: -1;    /* card goes ABOVE the form */
+  }
+
+  .contact-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 15px;
+  }
+
+  .stats-overlap {
+    padding-top: 30px;
+  }
+
+/* STACK ON MOBILE */
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form,
+  .contact-details-card {
+    width: 100%;
+    max-width: 500px;        /* ⬅ keeps original size */
+    margin-inline: auto;
+  }
+
+  .contact-details-card {
+    order: -1;   /* moves card ABOVE form */
   }
 
   img,
@@ -791,3 +892,5 @@ footer {
     object-fit: cover;
   }
 }
+
+

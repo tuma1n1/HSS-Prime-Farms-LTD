@@ -94,7 +94,7 @@ export default function Poultry() {
 
               <div className="img-frame">
                 <img
-                  src="/images/chicks.jpg"
+                  src="/images/Chicks-2.jpg"
                   alt="Day old chicks"
                   loading="eager"
                   decoding="async"
@@ -109,7 +109,7 @@ export default function Poultry() {
             <div className="split">
               <div className="img-frame">
                 <img
-                  src="/images/brown-and-white-eggs.webp"
+                  src="/images/Eggs.jpg"
                   alt="White and Yellow Eggs"
                   loading="eager"
                   decoding="async"
@@ -136,7 +136,7 @@ export default function Poultry() {
           </section>
 
           {/* FUTURE READY */}
-          <section className="section alt">
+          <section className="section">
             <motion.div
               variants={fadeUp}
               initial="hidden"
