@@ -148,8 +148,9 @@ export default function Contact() {
               <h3>Contact Details</h3>
 
               <p style={{ marginTop: "10px" }}>
-                📞<strong>+254 716 518 916</strong><br />
-                📞<strong>+254 715 611 591</strong>
+                📞<strong>+254 715 611 591</strong><br />
+                📞<strong>+254 716 518 916</strong>
+                
               </p>
 
               <p>
