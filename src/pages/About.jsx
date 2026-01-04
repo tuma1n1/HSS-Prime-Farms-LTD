@@ -6,21 +6,22 @@ export default function About() {
   return (
      <>
       <Helmet>
-        <title>About Us — HSS Prime Farms</title>
+        <title>About Us — HSS Prime Farms Ltd Kenya</title>
 
         <meta
           name="description"
-          content="Learn more about HSS Prime Farms — a modern Kenyan agribusiness specializing in poultry production, meat supply, and high-value horticultural farming."
+          content="Learn more about HSS Prime Farms Ltd Kenya — a modern agribusiness specializing in poultry production, meat supply, and high-value horticultural farming."
         />
 
-        <meta property="og:title" content="About Us — HSS Prime Farms" />
+        <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/about" />
+
+        <meta property="og:title" content="About Us — HSS Prime Farms Ltd Kenya" />
         <meta
           property="og:description"
           content="A modern Kenyan agribusiness focused on sustainable poultry, meat, and horticulture farming."
         />
         <meta property="og:type" content="website" />
-
-        <link rel="canonical" href="https://www.your-domain.com/about" />
+        <meta property="og:url" content="https://hss-prime-farms-ltd.co.ke/about" />
       </Helmet>
 
       <div className="page-content">

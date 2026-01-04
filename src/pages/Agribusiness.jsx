@@ -6,21 +6,22 @@ export default function Agribusiness() {
   return (
     <>
       <Helmet>
-        <title>Agribusiness & Horticulture — HSS Prime Farms Kenya</title>
+        <title>Agribusiness & Horticulture — HSS Prime Farms Ltd Kenya</title>
 
         <meta
           name="description"
-          content="Explore HSS Prime Farms' sustainable agribusiness division, producing garlic, onions, capsicum and other high-value crops for Kenyan and regional markets."
+          content="Explore HSS Prime Farms Ltd sustainable agribusiness division, producing garlic, onions, capsicum and other high-value crops for Kenyan and regional markets."
         />
 
-        <meta property="og:title" content="Agribusiness — HSS Prime Farms" />
+        <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/agribusiness" />
+
+        <meta property="og:title" content="Agribusiness — HSS Prime Farms Ltd Kenya" />
         <meta
           property="og:description"
-          content="Learn about our sustainable horticulture operations including garlic, onions and capsicum grown for local and export markets."
+          content="Learn about HSS Prime Farms Ltd sustainable horticulture operations including garlic, onions and capsicum grown for local and export markets."
         />
         <meta property="og:type" content="website" />
-
-        <link rel="canonical" href="https://www.your-domain.com/agribusiness" />
+        <meta property="og:url" content="https://hss-prime-farms-ltd.co.ke/agribusiness" />
       </Helmet>
 
       <div className="page-content">

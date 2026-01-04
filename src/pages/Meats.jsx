@@ -62,21 +62,22 @@ export default function Meats() {
   return (
     <>
       <Helmet>
-        <title>Fresh Meat Supply — HSS Prime Farms Kenya</title>
+        <title>Fresh Meat Supply — HSS Prime Farms Ltd Kenya</title>
 
         <meta
           name="description"
-          content="HSS Prime Farms supplies premium beef, goat and lamb processed under strict hygiene and cold-chain standards for retail, hospitality and bulk markets in Kenya."
+          content="HSS Prime Farms Ltd Kenya supplies premium beef, goat and lamb processed under strict hygiene and cold-chain standards for retail, hospitality and bulk markets."
         />
 
-        <meta property="og:title" content="Meat Supply — HSS Prime Farms" />
+        <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/meats" />
+
+        <meta property="og:title" content="Fresh Meat Supply — HSS Prime Farms Ltd Kenya" />
         <meta
           property="og:description"
           content="Explore our beef, goat and sheep meat supply — hygienically processed and cold-chain handled for freshness and safety."
         />
         <meta property="og:type" content="website" />
-
-        <link rel="canonical" href="https://www.your-domain.com/meats" />
+        <meta property="og:url" content="https://hss-prime-farms-ltd.co.ke/meats" />
       </Helmet>
 
       <div className="page-content">

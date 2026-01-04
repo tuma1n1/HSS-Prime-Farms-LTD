@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hssfarms.vercel.app/sitemap.xml
+Sitemap: https://hss-prime-farms-ltd.co.ke/sitemap.xml

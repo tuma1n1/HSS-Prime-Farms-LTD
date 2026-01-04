@@ -6,22 +6,24 @@ export default function Poultry() {
    return (
     <>
       <Helmet>
-        <title>Poultry Farming & Day-Old Chicks — HSS Prime Farms Kenya</title>
+        <title>Our Outlets & Distribution Network — HSS Prime Farms Ltd Kenya</title>
 
         <meta
           name="description"
-          content="HSS Prime Farms specializes in commercial poultry farming in Kenya — broilers, layers, and day-old chicks with strict biosecurity, animal welfare and cold-chain handling."
+          content="See the HSS Prime Farms Ltd outlets and distribution hubs across Kenya including Nairobi and Migori — ensuring fresh poultry, meat and crop supply across the country."
         />
 
-        <meta property="og:title" content="Poultry Farming — HSS Prime Farms Kenya" />
+        <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/outlets" />
+
+        <meta property="og:title" content="HSS Prime Farms Ltd — Distribution Network in Kenya" />
         <meta
           property="og:description"
-          content="Quality broilers, layers and day-old chicks produced under strict biosecurity and animal-welfare standards."
+          content="Strategically placed farm outlets and distribution hubs across Kenya for fresh poultry, meat and horticultural produce."
         />
         <meta property="og:type" content="website" />
-
-        <link rel="canonical" href="https://www.your-domain.com/poultry" />
+        <meta property="og:url" content="https://hss-prime-farms-ltd.co.ke/outlets" />
       </Helmet>
+
 
       <div className="page-content">
         <div className="container" style={{ padding: "50px 0" }}>

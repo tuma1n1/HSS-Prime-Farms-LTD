@@ -30,22 +30,24 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>HSS Prime Farms — Poultry • Meat • Agribusiness</title>
+        <title>HSS Prime Farms Ltd — Poultry • Meat • Agribusiness in Kenya</title>
 
         <meta
           name="description"
-          content="HSS Prime Farms is a modern Kenyan agribusiness supplying high-quality poultry, meat, and horticulture products through safe, sustainable and scalable farming."
+          content="HSS Prime Farms Ltd is a modern Kenyan agribusiness supplying quality poultry, meat and horticulture products through sustainable farming and cold-chain logistics."
         />
 
-        <meta property="og:title" content="HSS Prime Farms — From Farm to Future" />
+        <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/" />
+
+        <meta property="og:title" content="HSS Prime Farms Ltd — From Farm to Future" />
         <meta
           property="og:description"
-          content="A Kenyan agribusiness delivering quality poultry, meat, and horticulture — sustainably and at scale."
+          content="A Kenyan agribusiness delivering quality poultry, meat and agribusiness services — sustainably and at scale."
         />
         <meta property="og:type" content="website" />
-
-        <link rel="canonical" href="https://www.your-domain.com/" />
+        <meta property="og:url" content="https://hss-prime-farms-ltd.co.ke/" />
       </Helmet>
+
 
       <div>
 

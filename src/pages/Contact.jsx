@@ -29,22 +29,24 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact HSS Prime Farms — Request a Call Back</title>
+        <title>Contact HSS Prime Farms Ltd — Request a Call Back</title>
 
         <meta
           name="description"
-          content="Request a call back from HSS Prime Farms. Contact us for poultry supply, meat products, agribusiness partnerships and distribution enquiries."
+          content="Contact HSS Prime Farms Ltd for poultry supply, meat products, agribusiness partnerships and distribution enquiries. Leave your details and our team will call you back."
         />
 
-        <meta property="og:title" content="Contact HSS Prime Farms" />
+        <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/contact" />
+
+        <meta property="og:title" content="Contact HSS Prime Farms Ltd" />
         <meta
           property="og:description"
-          content="Get in touch with HSS Prime Farms. Leave your details and our team will call you back to discuss your enquiry."
+          content="Get in touch with HSS Prime Farms Ltd. Request a call back for poultry, meat and agribusiness supply enquiries."
         />
         <meta property="og:type" content="website" />
-
-        <link rel="canonical" href="https://www.your-domain.com/contact" />
+        <meta property="og:url" content="https://hss-prime-farms-ltd.co.ke/contact" />
       </Helmet>
+
 
       <div className="page-content">
         <div className="container" style={{ padding: "60px 0" }}>
