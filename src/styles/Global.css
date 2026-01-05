@@ -514,8 +514,9 @@ footer {
 
 
 .hero-content h1 {
-  font-size: clamp(26px, 6vw, 62px);
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: clamp(29px, 6vw, 72px);
+  /*font-family: 'Comic Neue', cursive;*/
+  font-weight: 900; 
   text-align: left;
   line-height: 1.1;
   margin-bottom: 16px;
@@ -642,7 +643,7 @@ footer {
 }
 
 .stats-overlap {
-  margin-top: -90px;
+  margin-top: -50px;
   position: relative;
   z-index: 6;
   padding-bottom: 80px;
@@ -826,7 +827,7 @@ footer {
     max-width: 100%;
   }
   .hero-section {
-    height: 95vh;      /* gives more space */
+    height: 90vh;      /* gives more space */
     padding-top: 70px; /* avoids navbar clash */
   }
 
@@ -842,7 +843,7 @@ footer {
   .hero-buttons {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   .section-title {
