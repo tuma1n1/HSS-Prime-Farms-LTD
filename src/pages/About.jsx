@@ -14,6 +14,8 @@ export default function About() {
         />
 
         <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/about" />
+        <link rel="icon" type="image/png" href="/HSS_Logo.png"/>
+
 
         <meta property="og:title" content="About Us — HSS Prime Farms Ltd Kenya" />
         <meta

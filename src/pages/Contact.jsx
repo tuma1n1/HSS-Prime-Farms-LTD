@@ -175,7 +175,7 @@ export default function Contact() {
 
               <p>
                 💬 <a
-                  href="https://wa.me/2547716518916?text=Hello%20HSS%20Prime%20Farms,%20I%20would%20like%20to%20make%20an%20inquiry."
+                  href="https://wa.me/254716518916?text=Hello%20HSS%20Prime%20Farms,%20I%20would%20like%20to%20make%20an%20inquiry."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-link">
