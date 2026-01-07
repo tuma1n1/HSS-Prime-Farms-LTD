@@ -38,6 +38,7 @@ export default function Home() {
         />
 
         <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/" />
+        <link rel="icon" type="image/png" href="/HSS_Logo.png" />
 
         <meta property="og:title" content="HSS Prime Farms Ltd — From Farm to Future" />
         <meta

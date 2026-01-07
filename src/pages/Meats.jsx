@@ -70,6 +70,7 @@ export default function Meats() {
         />
 
         <link rel="canonical" href="https://hss-prime-farms-ltd.co.ke/meats" />
+        <link rel="icon" type="image/png" href="/HSS_Logo.png" />
 
         <meta property="og:title" content="Fresh Meat Supply — HSS Prime Farms Ltd Kenya" />
         <meta
